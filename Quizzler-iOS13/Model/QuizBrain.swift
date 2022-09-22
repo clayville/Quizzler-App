@@ -75,6 +75,7 @@ struct QuizBrain {
         
         let alert = UIAlertController(title: "Game Over!!!", message: "The game has ended", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel))
+        alert.show(alert, sender: self)
         
         
         
